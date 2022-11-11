@@ -1,0 +1,19 @@
+{
+  "name": "@lebogo/onu2-shared",
+  "version": "1.0.0",
+  "description": "Shared events and methods for Onu2 client and server",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "postinstall": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "LeBogo",
+  "license": "CC BY-NC-SA 4.0",
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "@lebogo/eventsystem": "github:OnuGame/eventsystem"
+  }
+}
