@@ -1,5 +1,5 @@
 import { Comparable } from "./Comparable";
-import { v4 as uuid } from "../../OnuShared/src/UUIDGenerator";
+import { v4 as uuid } from "./UUIDGenerator";
 
 export class Card implements Comparable {
     id: string;
