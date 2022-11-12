@@ -16,3 +16,4 @@ export * from "./events/ReconnectEvent";
 export * from "./events/SettingsChangedEvent";
 export * from "./events/UpdateDeckEvent";
 export * from "./events/UpdatePlayerlistEvent";
+export * from "./events/PingEvent";
