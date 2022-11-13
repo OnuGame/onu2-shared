@@ -17,3 +17,5 @@ export * from "./events/SettingsChangedEvent";
 export * from "./events/UpdateDeckEvent";
 export * from "./events/UpdatePlayerlistEvent";
 export * from "./events/PingEvent";
+export * from "./events/PlayerJoinedEvent";
+export * from "./events/PlayerLeftEvent";
