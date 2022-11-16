@@ -21,3 +21,4 @@ export * from "./events/PlayerJoinedEvent";
 export * from "./events/PlayerLeftEvent";
 export * from "./events/PlayerDoneEvent";
 export * from "./events/UpdateDrawAmountEvent";
+export * from "./events/ColorWishEvent";
