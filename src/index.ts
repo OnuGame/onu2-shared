@@ -19,3 +19,4 @@ export * from "./events/UpdatePlayerlistEvent";
 export * from "./events/PingEvent";
 export * from "./events/PlayerJoinedEvent";
 export * from "./events/PlayerLeftEvent";
+export * from "./events/PlayerDoneEvent";
