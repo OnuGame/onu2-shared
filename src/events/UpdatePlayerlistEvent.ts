@@ -3,6 +3,6 @@ import { PlayerlistPlayer } from "../PlayerlistPlayer";
 
 export class UpdatePlayerlistEvent extends BaseEvent {
     constructor(public playerlist: PlayerlistPlayer[]) {
-        super("UpdatePlayerlist");
+        super("UpdatePlayerlistEvent");
     }
 }

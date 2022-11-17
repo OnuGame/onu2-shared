@@ -3,6 +3,6 @@ import { OnuSettings } from "../OnuSettings";
 
 export class SettingsChangedEvent extends BaseEvent {
     constructor(public settings: OnuSettings) {
-        super("SettingsChanged");
+        super("SettingsChangedEvent");
     }
 }
