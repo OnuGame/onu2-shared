@@ -35,6 +35,7 @@ export function getGameMode(gameModeName: string): GameMode {
 
 export const GameModes: { [key: string]: GameMode } = {
     CLASSIC: { name: "Classic", presets: [CLASSIC_PRESET, WISH_PRESET, ACTION_PRESET] },
+    LITE: { name: "Lite", presets: [CLASSIC_PRESET] },
     SPECIAL: {
         name: "Special",
         presets: [
