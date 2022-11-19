@@ -11,7 +11,7 @@
   "author": "LeBogo",
   "license": "CC BY-NC-SA 4.0",
   "devDependencies": {
-    "typescript": "^4.8.4"
+    "typescript": "^4.9.3"
   },
   "dependencies": {
     "@lebogo/eventsystem": "github:OnuGame/eventsystem"
