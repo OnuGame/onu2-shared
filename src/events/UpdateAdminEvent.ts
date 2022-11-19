@@ -1,7 +1,7 @@
 import { BaseEvent } from "@lebogo/eventsystem";
 
-export class JoinedLobbyEvent extends BaseEvent {
+export class UpdateAdminEvent extends BaseEvent {
     constructor(public uuid: string) {
-        super("JoinedLobbyEvent");
+        super("UpdateAdminEvent");
     }
 }

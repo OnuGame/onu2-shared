@@ -1,6 +1,7 @@
 export type PlayerlistPlayer = {
     username: string;
-    hash: string;
+    uuid: string;
     cardCount: number;
     active: boolean;
+    spectating: boolean;
 };
