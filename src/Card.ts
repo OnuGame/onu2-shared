@@ -23,7 +23,7 @@ export type SpecialCardType = "rd" | "cy" | "rc";
 
 export type CardType = NumberCardType | WishCardType | ActionCardType | SpecialCardType;
 
-export type CardColorType = "r" | "g" | "b" | "y" | "c" | "p" | null;
+export type CardColorType = "r" | "g" | "b" | "y" | "c" | "p" | "none";
 
 export class CardColor implements Comparable {
     constructor(public color: CardColorType) {}
@@ -40,10 +40,10 @@ export class CardColor implements Comparable {
             (otherPurpleValid && this.color == "p") ||
             (thisTurquoiseValid && other.color == "c") ||
             (otherTurquoiseValid && this.color == "c") ||
-            other.color == null ||
-            this.color == null;
+            other.color == "none" ||
+            this.color == "none";
 
         return colorEqual || variationValid;
     }
-    static Colors: CardColorType[] = ["r", "g", "b", "y", "c", "p", null];
+    static Colors: CardColorType[] = ["r", "g", "b", "y", "c", "p", "none"];
 }
