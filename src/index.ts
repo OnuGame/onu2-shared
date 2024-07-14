@@ -25,3 +25,4 @@ export * from "./events/UpdateColorEvent";
 export * from "./events/UpdateDeckEvent";
 export * from "./events/UpdateDrawAmountEvent";
 export * from "./events/UpdatePlayerlistEvent";
+export * from "./events/SpectateLobbyEvent";

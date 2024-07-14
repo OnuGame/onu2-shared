@@ -1,6 +1,6 @@
 {
   "name": "@lebogo/onu2-shared",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Shared events and methods for Onu2 client and server",
   "main": "dist/index.js",
   "scripts": {
